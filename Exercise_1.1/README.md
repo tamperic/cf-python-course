@@ -1,10 +1,8 @@
 # Exercise 1.1 - Getting Started with Python 
 
----
-
 ## Overview
 
-**Exercise 1.1** is the first exersice of my Achievement 1 from the **Python for Web Developers** specialization CareerFoundry course.
+**Exercise 1.1** is the first exercise of my Achievement 1 from the **Python for Web Developers** specialization CareerFoundry course.
 
 This exercise covers the following tasks:
 
@@ -23,8 +21,12 @@ This exercise covers the following tasks:
 
 ## Project Structure
 
-─> add.py  <br/>
-─> requirements.txt (list of package requirements for this Python app)
+- Exercise_1.1 (folder containing the following files:) <br/>
+  - add.py  <br/>
+  - requirements.txt (list of package requirements for this Python app)
+  - learning_journal.md
+  - README.md
+  - 1.1_Screenshots (folder containing png screnshots of each step from 1.1 Exercise)
 
 ---
 
