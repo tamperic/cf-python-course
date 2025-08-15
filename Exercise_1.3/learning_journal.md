@@ -1,6 +1,6 @@
 # Learning journal
 
-## Exercise 1.2: Data Types in Python
+## Exercise 1.3: Operators & Functions in Python
 
 ### Learning Goals
 
