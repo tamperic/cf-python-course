@@ -148,7 +148,6 @@ def main_menu(conn, cursor):
         if choice == 1:
             update_name = input("Enter a new recipe name: ")
             update_query = "UPDATE Recipes SET name = %s WHERE id = %s"
-            # cursor.execute(update_query, (update_name, choose_recipeID))
             try:
                 cursor.execute(update_query, (update_name, choose_recipeID))
                 conn.commit()
@@ -229,8 +228,8 @@ def main_menu(conn, cursor):
         conn.commit()
         print("\nRecipe has been deleted successfully!")
 
-    # This is our loop running the main menu.
-    # It continues to loop as long as the user doesn't choos to quit.
+    # This is loop running the main menu.
+    # It continues to loop as long as the user doesn't choose to quit.
     choice = ""
     while(choice != 'quit'):
         print("--------------------------------------------------")
